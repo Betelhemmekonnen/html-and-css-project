@@ -1,0 +1,104 @@
+
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	font-family: 'Times New Roman', Times, serif;
+}
+/*--------------------------phone and email start--------*/
+.main-header--top-container{
+  display:flex;
+  justify-content: center;
+  background-color: darkgrey;
+}
+.main-header--top{
+	padding: 0.5rem;
+	max-width: 83.754rem;
+	text-align: right;
+}
+.main-header--top a{
+	text-decoration: none;
+	font-size: 0.7rem;
+	margin-left: 0.9rem;
+	color: white;
+}
+.main-header--top a i{
+	background-color: yellow;
+	border-radius: 0.3rem;
+	padding: 0.09rem;
+}
+/*--------------------------ph one and email start--------*/
+/*nav and logo*/
+.main-header--logo-nav-bg{
+	display: flex;
+	justify-content: center;
+}
+.main-header--logo-nav-container{
+	max-width: 83.754rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0.5rem;
+}
+.main-header--logo img {
+    width: 150px;
+	padding-right: 0.6rem;
+
+}
+.main-header--nav ul{
+	list-style: none;
+}
+.main-header--nav li{
+	font-size: 1.2rem;
+	padding: 0.5rem;
+}
+.main-header-items{
+	display: flex;
+	justify-content: space-between;
+	align-items:center ;
+}
+.main-header--nav a{ 
+	color:black;
+	text-decoration: none;
+	font-weight: bold;
+	padding: 0.7rem;
+	transition: all 0.3s ease;
+	border-top: white solid 0.16rem;
+}
+.main-header--nav a:hover{
+	color: yellow;
+	border-top: yellowgreen  solid 0.16rem;
+	border-radius: 0.1rem;
+}
+/*nav and logo end*/
+/*main body text and image*/
+.main-body--top-container{
+	z-index:-1;
+	position: relative;
+	height: 50vh;
+	background-image: url(image/back.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.main-body--top-container-text{
+	position: absolute;
+	background-color: white;
+	padding: 15px;
+	font-size: 2rem;
+	bottom: 45px;
+	left: 55px;
+}
+/*main body text and image  end*/
+/*bottom*/
+.main-body-bottom-item-container{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-direction: row;
+	margin: 20px;
+}
+.main-body--bottom-note{
+	width: 50rem;
+	margin: 20px;
+	padding: 20px;
+}
