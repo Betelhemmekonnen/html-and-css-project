@@ -110,7 +110,7 @@
 	display: flex;
 	justify-content: space-between;
 	background: #ffffff;
-	background-color: yellow;
+	box-shadow: 10px 10px 10px blue;
 	height: 60vh;
 	margin-top: 10px;
 }
@@ -123,8 +123,8 @@
 }
 .card button{
 	border: 0;
-	background: #5448de;
-	color: #f8f8f8;
+	background: white;
+	color: red;
 	font-family: inherit;
 	padding: 16px 26px;
 	font-size: 16px;
@@ -136,11 +136,12 @@
      
 }
 .card:hover{
-	opacity: 0.5;
 	transform: rotate(10deg);
+	opacity:1px
 }
 .card:hover .tsuf{
 	visibility: visible;
+	color:white;
 }
 .card .tsuf:hover{
 	visibility: visible;
